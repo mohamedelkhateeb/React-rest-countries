@@ -1,5 +1,3 @@
-// Routing
-import { Routes, Route } from "react-router-dom";
 // Pages
 import AllCountries from "./components/AllCountries/AllCountries";
 
@@ -12,10 +10,8 @@ function App() {
         Which country do you want ?
       </div>
       <div className="px-5">
-        <Routes>
-          <Route path="/" element={<AllCountries />} />
-          <Route path="/country/:countryName" element={<AllCountries />} />
-        </Routes>
+        <AllCountries />
+        <AllCountries />
       </div>
     </header>
   );
