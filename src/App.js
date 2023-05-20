@@ -11,7 +11,6 @@ function App() {
       </div>
       <div className="px-5">
         <AllCountries />
-        <AllCountries />
       </div>
     </header>
   );
